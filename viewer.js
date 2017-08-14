@@ -372,7 +372,7 @@ var pdfjsWebLibs;
       "disableStream": false,
       "disableAutoFetch": false,
       "disableFontFace": false,
-      "disableTextLayer": false,
+      "disableTextLayer": true,
       "useOnlyCssZoom": false,
       "externalLinkTarget": 0,
       "enhanceTextSelection": false,
@@ -5952,7 +5952,7 @@ var pdfjsWebLibs;
      if (this.isViewerEmbedded) {
       return;
      }
-     document.title = title;
+     //document.title = title;
     },
     close: function pdfViewClose() {
      var errorWrapper = this.appConfig.errorWrapper.container;
